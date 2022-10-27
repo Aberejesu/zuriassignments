@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(./bg\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(39, 38, 38, 0.603);
+    position: fixed;
+    top: 0%;
+    
+}
+nav .logo{
+    font-size: 36px;
+    color: #f9004fea;
+    margin: 5px 0 2px 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 1s ease;
+    text-transform: uppercase;
+   
+}
+nav ul li a:hover{
+    color: #f9004d;
+    font-size: 19px;
+    border-bottom: 1px solid #f9004d;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+ .text{
+     flex: 1;
+     margin-left: 50px;
+     margin-bottom: 30px;
+}
+
+ img{
+    border-radius: 20%;
+    border: 5px solid #fff;
+    margin-right: 50px;
+    
+}
+.text h2{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 60px;
+    line-height: 25px;
+}
+.text span{
+    color: #f9004d;
+}
+h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.text p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+/* Begining of about me section */
+.section{
+    width: 100%;
+    padding: 10px 0 0 15px;
+    background-color: #1f1e1ee0;
+    height: 50vh;
+
+}
+.section .text-center{
+    width: 950px;
+    margin-top: 50px;
+}
+.section h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: center;
+}
+.section h5{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: 10px;
+    
+    text-align: center;
+}
+.section span{
+    color: #f9004d;
+}
+.section .text-center{
+    color: white;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 160px;
+}
+/* end of about me section */
+
+/* begining of contact me  section */
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(./pink.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+
+}
+.contact{
+    position: relative;
+     margin: 30px;
+    left: 30%;
+    width: 520px;
+    border: px solid #f9004d;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.473);
+    
+
+
+}
+.contact h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    border-bottom: 1px solid #f9004d;
+    color: #fff;
+}
+.contact span{
+    color: #f9004d;
+}
+.contact p{
+    font-size: 18px;
+    color: #fff;
+    margin: 20px;
+}
+.contact textarea{
+    width: 468px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 5px;
+    border: 1px solid #f9004d;
+    border-radius: 3px;
+    margin: 10px 0px 10px 0px;
+
+}
+.contact label{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.contact input{
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #f9004d;
+    border-radius: 3px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contact button{
+    margin-left: 120px;
+    margin-top: 15px;
+    padding: 7px;
+    width: 200px;
+    border-radius: 3px;
+    background-color: #f9004d;
+    border: none;
+    color: #fff;
+    transition: 1s;
+}
+.contact button:hover{
+    border: 1px solid #f9004d;
+    background-color: #fff;
+    color: #f9004d;
+}
+/* end of contact styling*/
+
+
+/* service styling */
+
+.dev{
+    background-color: #101010ee;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.service h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 30px auto;
+    text-align: center;
+}
+.dev .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+.card{
+    height: 290px;
+    width: 340px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.card h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.child p{
+    color: #fcfc;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+/* end of service styling */
+
+
+/* Skills and hobbies */
+.value .likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010ee;
+    padding-bottom: 25px;
+    
+}
+.likes .skills{
+    margin-right: 150px;
+
+}
+.likes .hobbies{
+    margin-left: 150px;
+}
+.likes h4{
+    font-size: 35px;
+    color: #e4084e9c;
+    margin: 15px 0 5px 10px;
+}
+.likes li{
+    color: #fcfc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* end of skills and hobbies */
+
+/* project section styling */
+.smile h2{
+    color: #f9004d;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: 45px;
+}
+.man .box-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px ;
+    margin-top: 30px
+}
+
+.card-center{
+    height: 310px;
+    width: 300px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+}
+.card-center h4{
+    font-size: 25px;
+    color: #fcfc;
+    margin: 20px;
+}
+
+.card-center p{
+    color: #fff;
+    font-size: 20px;
+}
+.card-center button{
+    width: 120px;
+    height: 36px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #e495aea4;
+    background-color: transparent;
+}
+.card-center a{
+    text-decoration: none;
+    color: #f9004d;
+    font-size: 15px;
+
+}
+
+
+/* end of project section styling */
+
+
+
+/* footer section styling */
+footer .lucky{
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 100%;
+    padding: 50px;
+}
+.lucky h3{
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.lucky span{
+    color: #f9004d;
+}
+.lucky li{
+    padding: 8px;
+    color: #fff;
+    font-size: 19px;
+}
+.lucky a{
+    text-decoration: none;
+    color: #fcfc;
+    font-size: 15px;
+    transition: 1s ease;
+}
+.lucky a:hover{
+    color: #f9004d;
+    font-size: 18px;
+}
+
+
+.bad{
+    margin-left: 70px;
+}
+
+
+/* end of footer section styling */

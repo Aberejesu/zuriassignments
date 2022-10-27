@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- registration section -->
+    <div class="registration">
+        <h1 class="reg">REGISTRATION</h1>
+
+        <div class="main">
+            <form action="">
+                <div id="name">
+                    <div class="info">
+                        <label for="first name" class="name">First name</label>
+                        <input type="text" placeholder="first name" name="name" required>
+                        <label for="last name" class="name">Last name</label>
+                        <input type="text" placeholder="last name" name="name" required>
+                        <label for="phone" class="name">Phone number</label>
+                        <input type="phone" placeholder="Phone number" name="phone number" required pattern="0-9(11)">
+                        <label for="email" class="name">Email</label>
+                        <input type="email" placeholder="email" name="email" required>
+                        <label for="DOB" class="name">Date of birth</label>
+                        <input type="date" placeholder="date of birth" name="date of birth" required>
+                    </div>
+                    <div id="gender">
+                        <label>Gender</label>
+                        <select name="Gender">
+                            <option value="gender">Female</option>
+                            <option value="gender">Male</option>
+                            <option value="gender">other</option>
+                        </select>
+                    </div>
+                    <div class="color">
+                        <label for="color">Favorite color</label>
+                        <input type="color" name="color" value="color" required>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">REGISTER</button>
+                </div>
+                <div>
+                    <p>Have an account already?<a href="index.html"><span>Login!</span></a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!-- end of regitration section -->
+
+
+</body>
+
+</html>
